@@ -5,6 +5,7 @@
     <classes>
       <class name="module1_Login_Test.sample1"/>
       <class name="module1_Login_Test.KiteTest"/>
+      <class name="module1_Login_Test.openflipkart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
