@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-22T11:09:26 IST" name="Suite" finished-at="2022-07-22T11:09:52 IST" duration-ms="26335">
+  <suite started-at="2022-07-22T16:08:54 IST" name="Suite" finished-at="2022-07-22T16:09:24 IST" duration-ms="30668">
     <groups>
     </groups>
-    <test started-at="2022-07-22T11:09:26 IST" name="Test" finished-at="2022-07-22T11:09:52 IST" duration-ms="26335">
+    <test started-at="2022-07-22T16:08:54 IST" name="Test" finished-at="2022-07-22T16:09:24 IST" duration-ms="30668">
       <class name="module1_Login_Test.sample1">
-        <test-method signature="openAmazon()[pri:0, instance:module1_Login_Test.sample1@4b8ee4de]" started-at="2022-07-22T11:09:26 IST" name="openAmazon" finished-at="2022-07-22T11:09:42 IST" duration-ms="15745" status="PASS">
+        <test-method signature="openAmazon()[pri:0, instance:module1_Login_Test.sample1@1b11171f]" started-at="2022-07-22T16:08:54 IST" name="openAmazon" finished-at="2022-07-22T16:09:07 IST" duration-ms="13531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazon -->
       </class> <!-- module1_Login_Test.sample1 -->
+      <class name="module1_Login_Test.openflipkart">
+        <test-method signature="openapp()[pri:0, instance:module1_Login_Test.openflipkart@3e27aa33]" started-at="2022-07-22T16:09:17 IST" name="openapp" finished-at="2022-07-22T16:09:24 IST" duration-ms="7665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- module1_Login_Test.openflipkart -->
       <class name="module1_Login_Test.KiteTest">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7]" started-at="2022-07-22T11:09:42 IST" name="OpenBrowser" finished-at="2022-07-22T11:09:44 IST" duration-ms="2828" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:module1_Login_Test.KiteTest@750e2b97]" started-at="2022-07-22T16:09:07 IST" name="OpenBrowser" finished-at="2022-07-22T16:09:10 IST" duration-ms="2525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7]" started-at="2022-07-22T11:09:44 IST" name="loginToApp" finished-at="2022-07-22T11:09:45 IST" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:module1_Login_Test.KiteTest@750e2b97]" started-at="2022-07-22T16:09:10 IST" name="loginToApp" finished-at="2022-07-22T16:09:10 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyUserID()[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7]" started-at="2022-07-22T11:09:45 IST" name="verifyUserID" finished-at="2022-07-22T11:09:48 IST" duration-ms="2875" status="PASS">
+        <test-method signature="verifyUserID()[pri:0, instance:module1_Login_Test.KiteTest@750e2b97]" started-at="2022-07-22T16:09:10 IST" name="verifyUserID" finished-at="2022-07-22T16:09:12 IST" duration-ms="2010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserID -->
-        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7]" started-at="2022-07-22T11:09:48 IST" name="ScreenShot" finished-at="2022-07-22T11:09:48 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="ScreenShot(org.testng.ITestResult)[pri:0, instance:module1_Login_Test.KiteTest@750e2b97]" started-at="2022-07-22T16:09:12 IST" name="ScreenShot" finished-at="2022-07-22T16:09:12 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserID status=SUCCESS method=KiteTest.verifyUserID()[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserID status=SUCCESS method=KiteTest.verifyUserID()[pri:0, instance:module1_Login_Test.KiteTest@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScreenShot -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1_Login_Test.KiteTest@5ab956d7]" started-at="2022-07-22T11:09:48 IST" name="closeBrowser" finished-at="2022-07-22T11:09:52 IST" duration-ms="4163" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:module1_Login_Test.KiteTest@750e2b97]" started-at="2022-07-22T16:09:12 IST" name="closeBrowser" finished-at="2022-07-22T16:09:17 IST" duration-ms="4443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
